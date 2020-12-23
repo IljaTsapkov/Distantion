@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login</title>     
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+		<meta http-equiv="content-type" content="text/html"; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+    <body>
+   <div class="container">
+   <a class="hiddenanchor" id="toregister"></a>
+   <a class="hiddenanchor" id="tologin"></a>
+   <div id="wrapper" style="margin-top: 120px">
+     <div id="login" class="animate form">
+	<form method="get" action="categories.html">
+		
+  <div class="login screen col-12" style="margin-left: auto; margin-right: auto">
+       <h1 style="text-align: center">Вход</h1>
+  <div class="form-group" style="margin-top: 40px">
+    <label for="exampleInputEmail1">Почтовый адрес</label>
+    <input type="email" placeholder="example@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" placeholder="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary" style="float: right">Далее</button>
+        <label for="exampleInputPassword1">Нет аккаунта?</label>
+    <a href="#toregister" class="to_register">регистрация</a>
+  </div>
+</form>
+  </div>
+  <div id="register" class="animate form">
+  	<form method="get" action="#tologin">
+		
+  <div class="login screen col-12" style="margin-left: auto; margin-right: auto">
+         <h1 style="text-align: center">Регистрация</h1>
+  <div class="form-group"  style="margin-top: 40px">
+    <label for="exampleInputEmail1">Имя пользователя</label>
+    <input type="email" placeholder="Obama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+   </div>
+     <div class="form-group">
+  <label for="exampleInputEmail1">Почтовый адрес</label>
+    <input type="email" placeholder="example@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" placeholder="password" class="form-control" id="exampleInputPassword1">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Повторите пароль</label>
+    <input type="password" placeholder="repeat password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary" style="float: right">Создать аккаунт</button>
+        <label for="exampleInputPassword1">Уже есть аккаунт?</label>
+    <a href="#tologin" class="to_login">Войти</a>
+  </div>
+</form>
+  </div>
+  </div>
+	<script language="javascript" src="js/jquery-3.5.1.slim.min.js" ></script>
+	<script language="javascript" src="js/popper.min.js" ></script>
+	<script language="javascript" src="js/bootstrap.min.js" ></script>
+	  </div>
+	  </body>
+</html>
